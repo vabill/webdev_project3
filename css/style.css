@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'COD';
-	src: url("../fonts/COD_Font.otf") format('opentype');
+	src: url('../fonts/COD_Font.otf') format('opentype');
 }
 
 body {
@@ -24,6 +24,7 @@ h1 {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	justify-content: center;
 }
 
 .nav li {
