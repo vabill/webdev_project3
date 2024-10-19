@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'COD';
+	src: url("../fonts/COD_Font") format('opentype');
+}
+
+body {
+	background: url("../images/background.png") center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'COD', sans-serif;
+	text-align: center;
+	font-size: 28px;
+	color: black;
+	text-shadow: 2px 2px 4px #7B141C;
+}
+
+.nav {
+	font-family: 'COD', sans-serif;
+	font-size: 18px;
+	color: black;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
