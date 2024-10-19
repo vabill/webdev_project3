@@ -23,4 +23,9 @@ h1 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+}
+
+.nav li {
+	margin: 0 15px;
 }
