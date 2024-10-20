@@ -33,9 +33,9 @@ h1 {
 
 .index_members {
 	border: 3px dashed #7B141C;
-	margin: 0;
+	margin: 0 auto;
 	padding: 10px;
-	width: 240;
+	width: 180;
 	font-family: 'Lucida Console', monospace;
 	color: black;
 }
