@@ -27,7 +27,7 @@ h2 {
 
 .nav {
 	font-family: 'COD', sans-serif;
-	font-size: 18px;
+	font-size: 28px;
 	color: black;
 	list-style-type: none;
 	margin: 0;
@@ -40,8 +40,10 @@ h2 {
 	margin: 0 15px;
 }
 
+/* applies to index */
 .index_members {
 	border: 3px dashed #7B141C;
+	background: #FE8066;
 	margin: 0 auto;
 	padding: 10px;
 	width: 480px;
@@ -49,6 +51,7 @@ h2 {
 
 .index_songs {
 	border: 3px dashed #7B141C;
+	background: #FE8066;
 	margin: 30px auto;
 	padding: 10px;
 	width: 600px;
@@ -61,3 +64,5 @@ h2 {
 .index_songs ul ul {
 	list-style-type: none;
 }
+
+/* applies to resume */
