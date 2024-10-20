@@ -33,7 +33,7 @@ h1 {
 
 .index_members {
 	border: 3px dashed #7B141C;
-	margin: 0 auto;
+	margin: 0;
 	padding: 10px;
 	width: 240;
 	font-family: 'Lucida Console', monospace;
