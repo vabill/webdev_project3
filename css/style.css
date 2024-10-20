@@ -75,11 +75,13 @@ h4 {
 }
 
 .index_songs ul {
-	list-style-type: none;
+	list-style-type: circle;
+	text-align: left;
 }
 
 .index_songs ul ul {
-	list-style-type: none;
+	list-style-type: square;
+	text-align: auto;
 }
 
 /* applies to resume */
