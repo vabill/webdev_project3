@@ -11,7 +11,7 @@ body {
 h1 {
 	font-family: 'COD', sans-serif;
 	text-align: center;
-	font-size: 28px;
+	font-size: 34px;
 	color: black;
 	text-shadow: 2px 2px 4px #7B141C;
 }
@@ -29,4 +29,13 @@ h1 {
 
 .nav li {
 	margin: 0 15px;
+}
+
+.index_members {
+	border: 3px dashed #7B141C;
+	margin: 0 auto;
+	padding: 10px;
+	width: 120px;
+	font-family: 'Lucida Console', monospace;
+	color: black;
 }
