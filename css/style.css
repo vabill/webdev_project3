@@ -25,7 +25,12 @@ h2 {
 h3 {
 	font-family: 'COD', sans-serif;
 	font-size: 26px;
+	margin: 20px auto;
 }
+
+h4 {
+	font-family: 'COD', sans-serif;
+	font-size: 22px;
 
 .nav {
 	font-family: 'COD', sans-serif;
