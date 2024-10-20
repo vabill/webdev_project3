@@ -6,6 +6,8 @@
 body {
 	background: url("../images/background.png") center center fixed;
 	background-size: cover;
+	font-family: 'Lucida Console', monospace;
+	color: black;
 }
 
 h1 {
@@ -14,6 +16,13 @@ h1 {
 	font-size: 34px;
 	color: black;
 	text-shadow: 2px 2px 4px #7B141C;
+}
+
+h2 {
+	font-family: 'COD', sans-serif;
+	text-align: center;
+	font-size: 24px;
+	color: black;
 }
 
 .nav {
@@ -35,16 +44,20 @@ h1 {
 	border: 3px dashed #7B141C;
 	margin: 0 auto;
 	padding: 10px;
-	width: 240px;
-	font-family: 'Lucida Console', monospace;
-	color: black;
+	width: 480px;
 }
 
 .index_songs {
 	border: 3px dashed #7B141C;
-	margin: 30px;
+	margin: 30px auto;
 	padding: 10px;
-	width: 360px;
-	font-family: 'Lucida Console', monospace;
-	color: black;
+	width: 600px;
+}
+
+.index_songs ul {
+	list-style-type: none;
+}
+
+.index_songs ul ul {
+	list-style-type: none;
 }
