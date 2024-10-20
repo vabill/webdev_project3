@@ -25,7 +25,6 @@ h2 {
 h3 {
 	font-family: 'COD', sans-serif;
 	font-size: 26px;
-	margin: 20px auto;
 }
 
 h4 {
@@ -76,6 +75,10 @@ h4 {
 .body-resume {
 	background-image: linear-gradient(#FFD69E, #FE8066);
 	justify-content: center;
+}
+
+.body-resume h3 {
+	margin: 20px auto;
 }
 
 /* applies to games */
