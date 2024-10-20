@@ -66,3 +66,16 @@ h2 {
 }
 
 /* applies to resume */
+.body-resume {
+	background-image: linear-gradient(#7B141C, black);
+	justify-content: center;
+	color: white
+}
+
+/* applies to games */
+.cod_ghosts {
+	border: 3px dashed #7B141C;
+	background: #FFD69E;
+	margin: 0 auto;
+	padding: 10px;
+}
