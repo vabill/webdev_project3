@@ -46,6 +46,17 @@ h4 {
 	margin: 0 15px;
 }
 
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.video {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* applies to index */
 .index_members {
 	border: 3px dashed #7B141C;
