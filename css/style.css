@@ -96,6 +96,12 @@ h4 {
 	margin: 20px auto;
 }
 
+.resume_exp li {
+	list-style-type: circle;
+	text-align: left
+	margin-left: 360;
+}
+
 /* applies to games */
 .cod_ghosts {
 	border: 3px dashed #7B141C;
