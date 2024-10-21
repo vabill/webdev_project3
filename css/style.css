@@ -90,7 +90,6 @@ h4 {
 .body-resume {
 	background-image: linear-gradient(#FFD69E, #FE8066);
 	justify-content: center;
-	display: flex;
 }
 
 .body-resume h3 {
@@ -111,7 +110,6 @@ h4 {
 	padding: 10px;
 	width: 720px;
 	justify-content: center;
-	display: flex;
 }
 
 .cod_mw {
@@ -121,7 +119,6 @@ h4 {
 	padding: 10px;
 	width: 720px;
 	justify-content: center;
-	display: flex;
 }
 
 .cod_mw2 {
@@ -131,5 +128,4 @@ h4 {
 	padding: 10px;
 	width: 720px;
 	justify-content: center;
-	display: flex;
 }
