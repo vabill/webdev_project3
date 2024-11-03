@@ -2,7 +2,6 @@
 	font-family: 'COD';
 	src: url('../fonts/COD_Font.otf') format('opentype');
 }
-
 body {
 	background: url("../images/background.png") center center fixed;
 	background-size: cover;
@@ -10,28 +9,23 @@ body {
 	color: black;
 	text-align: center;
 }
-
 h1 {
 	font-family: 'COD', sans-serif;
 	font-size: 34px;
 	text-shadow: 2px 2px 4px #7B141C;
 }
-
 h2 {
 	font-family: 'COD', sans-serif;
 	font-size: 30px;
 }
-
 h3 {
 	font-family: 'COD', sans-serif;
 	font-size: 26px;
 }
-
 h4 {
 	font-family: 'COD', sans-serif;
 	font-size: 22px;
 }
-
 .nav {
 	font-family: 'COD', sans-serif;
 	font-size: 28px;
@@ -41,22 +35,18 @@ h4 {
 	display: flex;
 	justify-content: center;
 }
-
 .nav li {
 	margin: 0 15px;
 }
-
 .img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .video {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /* applies to index */
 .index_members {
 	border: 3px dashed #7B141C;
@@ -65,7 +55,6 @@ h4 {
 	padding: 10px;
 	width: 480px;
 }
-
 .index_songs {
 	border: 3px dashed #7B141C;
 	background: #FE8066;
@@ -73,35 +62,29 @@ h4 {
 	padding: 10px;
 	width: 600px;
 }
-
 .index_songs ul {
 	list-style-type: circle;
 	text-align: left;
 	margin-left: 10px;
 }
-
 .index_songs ul ul {
 	list-style-type: square;
 	text-align: left;
 	margin-left: 40px;
 }
-
 /* applies to resume */
 .body-resume {
 	background-image: linear-gradient(#FFD69E, #FE8066);
 	justify-content: center;
 }
-
 .body-resume h3 {
 	margin: 20px auto;
 }
-
 .resume_exp li {
 	list-style-type: circle;
 	text-align: left;
 	margin-left: 360px;
 }
-
 /* applies to games */
 .cod_ghosts {
 	border: 3px dashed #7B141C;
@@ -111,7 +94,6 @@ h4 {
 	width: 720px;
 	justify-content: center;
 }
-
 .cod_mw {
 	border: 3px dashed #7B141C;
 	background: #FE8066;
@@ -120,7 +102,6 @@ h4 {
 	width: 720px;
 	justify-content: center;
 }
-
 .cod_mw2 {
 	border: 3px dashed #7B141C;
 	background: #D54342;
