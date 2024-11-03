@@ -12,29 +12,29 @@ body {
 }
 
 h1 {
-	font-family: 'COD', sans-serif;
-	font-size: 34px;
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 2.125rem;
 	text-shadow: 2px 2px 4px #7B141C;
 }
 
 h2 {
-	font-family: 'COD', sans-serif;
-	font-size: 30px;
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 1.875rem;
 }
 
 h3 {
-	font-family: 'COD', sans-serif;
-	font-size: 26px;
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 1.625rem;
 }
 
 h4 {
-	font-family: 'COD', sans-serif;
-	font-size: 22px;
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 1.375rem;
 }
 
 .nav {
-	font-family: 'COD', sans-serif;
-	font-size: 28px;
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 1.75 rem;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -43,18 +43,12 @@ h4 {
 }
 
 .nav li {
-	margin: 0 15px;
+	margin: 0 0.938rem;
 }
 
-.img {
+.img, .video {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.video {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 /* applies to index */
@@ -62,16 +56,16 @@ h4 {
 	border: 3px dashed #7B141C;
 	background: #FE8066;
 	margin: 0 auto;
-	padding: 10px;
-	width: 480px;
+	padding: 0.625rem;
+	width: 30rem;
 }
 
 .index_songs {
 	border: 3px dashed #7B141C;
 	background: #FE8066;
-	margin: 30px auto;
-	padding: 10px;
-	width: 600px;
+	margin: 1.875rem auto;
+	padding: 0.625rem;
+	width: 37.5rem;
 }
 
 .index_songs ul {
@@ -89,17 +83,18 @@ h4 {
 /* applies to resume */
 .body-resume {
 	background-image: linear-gradient(#FFD69E, #FE8066);
+	display: felx;
 	justify-content: center;
 }
 
 .body-resume h3 {
-	margin: 20px auto;
+	margin: 1.25rem auto;
 }
 
 .resume_exp li {
 	list-style-type: circle;
 	text-align: left;
-	margin-left: 360px;
+	margin-left: 22.5rem;
 }
 
 /* applies to games */
@@ -107,25 +102,28 @@ h4 {
 	border: 3px dashed #7B141C;
 	background: #FFD69E;
 	margin: 0 auto;
-	padding: 10px;
-	width: 720px;
+	padding: 0.625rem;
+	width: 45rem;
 	justify-content: center;
+	position: relative;
 }
 
 .cod_mw {
 	border: 3px dashed #7B141C;
 	background: #FE8066;
-	margin: 30px auto;
-	padding: 10px;
-	width: 720px;
+	margin: 1.875rem auto;
+	padding: 0.625rem;
+	width: 45rem;
 	justify-content: center;
+	float: left;
 }
 
 .cod_mw2 {
 	border: 3px dashed #7B141C;
 	background: #D54342;
-	margin: 30px auto;
-	padding: 10px;
-	width: 720px;
+	margin: 1.875rem auto;
+	padding: 0.625rem ;
+	width: 45rem;
 	justify-content: center;
+	float: left;
 }
