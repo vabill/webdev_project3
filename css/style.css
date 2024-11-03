@@ -86,7 +86,7 @@ h4 {
 /* applies to resume */
 .body-resume {
 	background-image: linear-gradient(#FFD69E, #FE8066);
-	display: felx;
+	display: flex;
 	justify-content: center;
 }
 
