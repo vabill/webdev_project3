@@ -68,7 +68,7 @@ h4 {
 	margin: 1.875rem auto;
 	padding: 0.625rem;
 	width: 37.5rem;
-	position: absolute;
+	position: relative;
 }
 
 .index_songs ul {
