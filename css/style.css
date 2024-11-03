@@ -58,6 +58,8 @@ h4 {
 	margin: 0 auto;
 	padding: 0.625rem;
 	width: 30rem;
+	position: relative;
+	top: 0.625rem;
 }
 
 .index_songs {
@@ -66,6 +68,7 @@ h4 {
 	margin: 1.875rem auto;
 	padding: 0.625rem;
 	width: 37.5rem;
+	position: absolute;
 }
 
 .index_songs ul {
@@ -115,7 +118,7 @@ h4 {
 	padding: 0.625rem;
 	width: 45rem;
 	justify-content: center;
-	float: left;
+	position: relative;
 }
 
 .cod_mw2 {
@@ -125,5 +128,5 @@ h4 {
 	padding: 0.625rem ;
 	width: 45rem;
 	justify-content: center;
-	float: left;
+	position: relative;
 }
