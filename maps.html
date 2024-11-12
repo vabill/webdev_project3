@@ -18,16 +18,9 @@
 	</ul>
 	
 	<h2>La Jolla Shores Beach</h2>
-	<div id="map"></div>
-	<script>
-		var map;
-		function initMap() {
-			map = new google.maps.Map(document.getElementById('map'), {
-				center: {lat: 32.857166293767435, lng: -117.25741432029214},
-				zoom: 10
-			});
-		}
-	</script>
+	<div id="wrapper">
+		<div id="canvas"></div>
+	</div>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
 </body>
 </head>
