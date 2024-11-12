@@ -26,7 +26,7 @@ function init(){
 	});
 	
 	google.maps.event.addListener(marker, "click", function() {
-	infowwindow.open(myMap, marker);
+		infowwindow.open(myMap, marker);
 	});
 }
 
