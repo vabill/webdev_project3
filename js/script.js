@@ -8,7 +8,7 @@ function initMap(){
 	
 	map.setTilt(45);
 
-	const marker = new google.maps.marker.AdvancedMarkerElement({
+	const marker = new google.maps.Marker({
 		position: {lat: 32.857166293767435, lng: -117.25741432029214},
 		map: map,
 		title: "La Jolla Shores Beach",
