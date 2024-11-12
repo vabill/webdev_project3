@@ -1,27 +1,33 @@
 // for maps.html
-function initMap(){
-	var map = new google.maps.Map(document.getElementById('map'), {
-		center: {lat: 32.857166293767435, lng: -117.25741432029214},
-		zoom: 10,
-		mapTypeID: "satellite",
-	});
+function init(){
+	var el = document.getElementById('canvas');
+	var myLocation = new google.maps.LatLng(32.857711548212926, -117.25744114237271);
+	var mapOptions = {
+		center: myLocation,
+		zoom: 12,
+		mapTypeID: google.maps.MapTypeId.SATELLITE,
+		mapTypeControlOptions: {
+			position: google.maps.ControlPosition.BOTTOM_CENTER
+		}
+	};
 	
-	map.setTilt(45);
-
-	const marker = new google.maps.Marker({
-		position: {lat: 32.857166293767435, lng: -117.25741432029214},
-		map: map,
-		title: "La Jolla Shores Beach",
+	var myMap = new google.maps.Map(el, mapOptions);
+	
+	var marker = new google.maps.Marker({
+		position: myLocation,
+		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
 	});
 	
-	const infoWindow = new google.maps.InfoWindow({
-		content: "<h3>La Jolla Shores Beach</h3><p>I was here almost weekly when I lived in Cali!</p>"
+	var contentString = '<h3>La Jolla Shores Beach</h3><p>I used to come here almost weekly when I lived in Cali!</p>';
+	
+	var infoWindow = new google.maps.InfoWindow({
+		content: contentString
 	});
 	
-	marker.addListener("click", () => {
-		infoWindow.open(map, marker);
+	google.maps.event.addListener(marker, 'click', function() {
+		infowWindow.open(myMap, marker);
 	});
 }
 
-google.maps.event.addDomListener(window, 'load', initMap)
+google.maps.event.addDomListener(window, 'load', init);
