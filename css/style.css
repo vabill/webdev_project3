@@ -151,3 +151,39 @@ h4 {
 	background-color: #ccc;
 	margin: 30px auto;
 }
+
+/* media query 1 */
+@media screen and (min-width: 600px) {
+	h1 {
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 4px #7B141C;
+}
+
+h2 {
+	font-size: 1.125rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h4 {
+	font-family: 'COD', Arial, sans-serif;
+	font-size: 0.875rem;
+}
+
+.nav {
+	font-size: 1.125rem;
+}
+
+.index_members {
+	padding: 0.475rem;
+	width: 15rem;
+	top: 0.425rem;
+}
+
+.index_songs {
+	margin: 1.125rem auto;
+	padding: 0.425rem;
+	width: 18.75rem;
+}
