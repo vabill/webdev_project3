@@ -8,7 +8,7 @@ function initMap(){
 	
 	map.setTilt(45);
 
-	const marker = new google.maps.Marker({
+	const marker = new google.maps.marker.AdvancedMarkerElement({
 		position: {lat: 32.857166293767435, lng: -117.25741432029214},
 		map: map,
 		title: "La Jolla Shores Beach",
@@ -19,7 +19,7 @@ function initMap(){
 		content: "<h3>La Jolla Shores Beach</h3><p>I was here almost weekly when I lived in Cali!</p>"
 	});
 	
-	marker.addEventListener("click", () => {
+	marker.addListener("click", () => {
 		infoWindow.open(map, marker);
 	});
 }
