@@ -25,7 +25,7 @@ function init(){
 		content: contentString
 	});
 	
-	google.maps.event.addListener(marker, "click", function() {
+	google.maps.event.addListener(marker, 'click', function() {
 		infowwindow.open(myMap, marker);
 	});
 }
