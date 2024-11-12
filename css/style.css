@@ -129,3 +129,9 @@ h4 {
 	justify-content: center;
 	position: relative;
 }
+
+/* applies to maps */
+#map {
+	height: 75%;
+	margin: 1rem;
+}
