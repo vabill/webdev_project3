@@ -1,10 +1,10 @@
 // for maps.html
 function init(){
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(32.857711548212926, -117.25744114237271);
+	var myLocation = new google.maps.LatLng(32.85752946561114, -117.25767633483069);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 12,
+		zoom: 15,
 		mapTypeID: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -21,12 +21,12 @@ function init(){
 	
 	var contentString = '<h3>La Jolla Shores Beach</h3><p>I used to come here almost weekly when I lived in Cali!</p>';
 	
-	var infoWindow = new google.maps.InfoWindow({
+	var infowindow = new google.maps.InfoWindow({
 		content: contentString
 	});
 	
-	google.maps.event.addListener(marker, 'click', function() {
-		infowWindow.open(myMap, marker);
+	google.maps.event.addListener(marker, "click", function() {
+		infowwindow.open(myMap, marker);
 	});
 }
 
