@@ -159,6 +159,7 @@ h4 {
 		padding: 0.4rem;
 		margin-top: 0.8rem;
 		border-width: 1px;
+		position: relative;
 	}
 	
 	.index_song {
@@ -166,6 +167,7 @@ h4 {
 		padding: 0.4rem;
 		margin-top: 1rem;
 		border-width: 1px;
+		position: relative;
 	}
 	
 	h1 {
@@ -190,6 +192,7 @@ h4 {
 		padding: 0.5rem;
 		margin-top: 1rem;
 		border-width: 2px;
+		position: relative;
 	}
 	
 	.index_songs {
@@ -197,6 +200,7 @@ h4 {
 		padding: 0.5rem;
 		margin-top: 1.5rem;
 		border-width: 2px;
+		position: relative;
 	}
 	
 	h1 {
