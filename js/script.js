@@ -9,15 +9,15 @@ function showSlide(index) {
 	});
 }
 
-buttonNext.addEventListener("click", function() {
-	currentSlide = (currentSlide + 1) % slideImg.length;
-	showSlide(currentSlide);
-});
+	buttonNext.addEventListener("click", function() {
+		currentSlide = (currentSlide + 1) % slideImg.length;
+		showSlide(currentSlide);
+	});
 
-buttonPrev.addEventListener("click", function() {
-	currentSlide = (currentSlide - 1 + slideImg.length) % slideImg.length;
-	showSlide(currentSlide);
-});
+	buttonPrev.addEventListener("click", function() {
+		currentSlide = (currentSlide - 1 + slideImg.length) % slideImg.length;
+		showSlide(currentSlide);
+	});
 
-showSlide(currentSlide);
+	showSlide(currentSlide);
 });
