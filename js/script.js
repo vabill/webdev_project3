@@ -20,4 +20,3 @@ function showSlide(index) {
 	});
 
 	showSlide(currentSlide);
-});
