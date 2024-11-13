@@ -4,9 +4,10 @@ const buttonPrev = document.querySelector(".slide_prev");
 let currentSlide = 0;
 
 function showSlide(index) {
-	slideImg.forEach((img, 1) => {
+	slideImg.forEach((img, i) => {
 		img.style.display = i === index ? "block" : "none";
 	});
+}
 
 	buttonNext.addEventListener("click", function() {
 		currentSlide = (currentSlide + 1) % slideImg.length;
