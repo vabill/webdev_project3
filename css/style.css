@@ -158,16 +158,16 @@ h4 {
 		width: 25rem;
 		padding: 0.5rem;
 		font-size: 0.725rem;
-		border-width: 1.5px;
-		background: #FE6F50;
+		border-width: 1.5px dashed #7B141C;
+		background: #FE8066;
 	}
 	
 	.index_songs {
 		width: 32rem;
 		padding: 0.5rem;
 		font-size: 0.7rem;
-		border-width: 1.5px;
-		background: #FE6F50;
+		border-width: 1.5px dashed #7B141C;
+		background: #FE8066;
 	}
 }
 
@@ -177,15 +177,15 @@ h4 {
 		width: 30rem;
 		padding: 0.625rem;
 		font-size: 1rem;
-		border: 3px;
-		background: #FE5F40;
+		border: 3px dashed #7B141C;
+		background: #FE8066;
 	}
 	
 	.index_songs {
 		width: 37.5rem;
 		padding: 0.625rem;
 		font-size: 1rem;
-		border: 3px;
-		background: #FE5F40;
+		border: 3px dashed #7B141C;
+		background: #FE8066;
 	}
 }
