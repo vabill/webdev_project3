@@ -153,6 +153,39 @@ h4 {
 }
 
 /* media query 1 */
+@media (min-width: 768px) {
+	.index_members {
+		width: 15rem;
+		padding: 0.4rem;
+		margin-top: 0.8rem;
+		border-width: 1px;
+		position: relative;
+	}
+	
+	.index_song {
+		width: 18rem;
+		padding: 0.4rem;
+		margin-top: 1rem;
+		border-width: 1px;
+		position: relative;
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+		margin-bottom: 0.4rem;
+	}
+	
+	h2 {
+		font-size: 1.25rem;
+	}
+	
+	.nav li {
+		margin: 0 0.3rem;
+		font-size: 1rem;
+	}
+}
+
+/* media query 2 */
 @media (min-width: 1024px) {
 	.index_members {
 		width: 20rem;
@@ -183,38 +216,5 @@ h4 {
 	.nav li {
 		margin: 0 0.5rem;
 		font-size: 1.25rem;
-	}
-}
-
-/* media query 2 */
-@media (min-width: 768px) {
-	.index_members {
-		width: 15rem;
-		padding: 0.4rem;
-		margin-top: 0.8rem;
-		border-width: 1px;
-		position: relative;
-	}
-	
-	.index_song {
-		width: 18rem;
-		padding: 0.4rem;
-		margin-top: 1rem;
-		border-width: 1px;
-		position: relative;
-	}
-	
-	h1 {
-		font-size: 1.5rem;
-		margin-bottom: 0.4rem;
-	}
-	
-	h2 {
-		font-size: 1.25rem;
-	}
-	
-	.nav li {
-		margin: 0 0.3rem;
-		font-size: 1rem;
 	}
 }
