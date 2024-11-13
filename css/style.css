@@ -153,7 +153,7 @@ h4 {
 }
 
 /* media query 1 */
-@media (min-width: 480px) {
+@media (min-width: 768px) {
 	.index_members {
 		width: 15rem;
 		padding: 0.4rem;
@@ -184,7 +184,7 @@ h4 {
 }
 
 /* media query 2 */
-@media (min-width: 768) {
+@media (min-width: 1024px) {
 	.index_members {
 		width: 20rem;
 		padding: 0.5rem;
